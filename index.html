@@ -1,18 +1,93 @@
 <!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>findThePrecious.com</title>
+    < LINK  href = " styles.css "  rel = " stylesheet "  type = " text / css " >
+  </head>
+  
+  <body>
+    <header>
+      <div class="title"><h1>findThePrecious</h1></div>
+      
+      <nav>
+        <ul>
+            <!-- Les liens du menu vers les sections correspondantes dans la page -->
+            <li><a href="#Fellows">Fellows</a></li>
+            
+            <li><a href="#Contact_us">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section>
+      <!-- premiere image -->
+      <h2>Dangerous fellowship try to destroy the ring</h2>
+      <br><img src="https://via.placeholder.com/140.jpg" alt= "orcs,gobelin,balrog" class="image"/><br />
+      <p>Orc, Gobelin, Balrog, protect your master sauron !</p>
+    </section>
+    
+    <section>
+      <h2 id="Fellows">Fellows wanted dead (or alive if you want to eat them later)</h2>
+        <ul class="li">
+        <!-- premiere photo  -->
+        <li>
+           <h3>The Wizard</h3>
+           <p><img src="https://via.placeholder.com/90.jpg" alt="fellows" class="image"/><br />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam facere non nihil soluta debitis id deserunt sit a, alias, dolorum animi! Porro deserunt cupiditate nulla unde sed. Eum, doloremque..</p>
+          
+        </li>
+        <!-- deuxieme photo -->
+          
+        <li>
+           <h3>Hobbit#3</h3>
+           <p><img src= "https://via.placeholder.com/90.jpg" alt="fellows" class="image"/><br />
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptates error itaque omnis commodi velit unde tempora neque quibusdam fugit perspiciatis, obcaecati, sint dicta culpa eos ex odit autem. Vero.</p>
+        </li>
+          
+         <!-- troisieme photo -->
+        <li>
+           <h3>Yummy Dwarf</h3>
+           <p><img src="https://via.placeholder.com/90.jpg" alt="fellows" class="image"/><br />
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad hic quas praesentium quis tempore culpa ex accusantium illum? Rerum eum dolorem amet ab rem fuga! Repellendus voluptatem nam non!</p>
+        </li>
+      </ul>
+    </section>
+    
+    <!-- Formulaire de contact -->
+    <section>
+      <h2 id="Contact_us">Contact us</h2>
+       <form action="page" method="post">
+        <div>
+          <label for="number">Your number</label>
+          <input type="text" name="number" id="number" placeholder="Enter number">
+        </div>
+        
+        <div>
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="Enter mail">   
+        </div>
+        
+        <p>I have seen one them.</p>
+         <select> 
+           <option value="The Wizard">The Wizard</option> 
+           <option value="Hobbit#3">Hobbit#3</option> 
+           <option value="Yummy Dwarf">Yummy Dwarf</option>
+         </select>
 
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
-</body>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Enter your message"></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">submit</button>
+        </div>
+       </form><br>    
+    </section>
+    
+    <footer>  
+      <p><a href="https://www.Sauron4Ever.com/">[Sauron4Ever]</a>-<a href="http://www.twitter.com">[Follow him also on twitter]</a></p>
+    </footer>
+     
+  </body>
 </html>
